@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from version control
-                git url: 'https://github.com/your-repository/php-project.git', branch: 'main'
+                git url: 'https://github.com/your-repository/php-project.git', branch: 'master'
             }
         }
 
